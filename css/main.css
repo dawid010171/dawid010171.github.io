@@ -1,0 +1,849 @@
+.tabela{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 90%;
+    border: 5px;
+    border-color: black;
+}
+
+
+
+
+.tlo{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    filter: blur(5px);
+
+}
+.tlo1{
+    top: 99%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    filter: blur(8px);
+}
+.tlo2{
+    top: 196%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    filter: blur(8px);
+
+}
+.tlo3{
+    top: 291%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    filter: blur(8px);
+}
+
+
+
+
+.natlo{
+    background-color: #707070;
+    width:  100%;
+    height: 391%;
+    left: 0%;
+    top: 0%;
+    opacity: 35%;
+    position: absolute;
+}
+
+.nativbarleft{
+    top:0;
+    left:0;
+    width: 150px;
+    height: 100%;
+    background-color: #2B2929;
+    font-family: Futura PT Medium;
+    font-style: italic;
+    position:fixed;
+
+}
+.napisgora{
+    background-color: #FA323C;
+    top: 5%;
+    left: 38%;
+    height: 150px;
+    width: 750px;
+    position: absolute;
+    font-family: Futura Pt Medium;
+    font-style: italic;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nagloweknb{
+    font-family: Futura Pt Medium;
+    font-style: italic;
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.podgloweknb{
+    font-family: Futura Pt Medium;
+    font-style: italic;
+    font-size: 25px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.podgloweknb:hover{
+    background-color: #FA323C;
+    cursor: pointer;
+
+}
+.tekstramka{
+    background-color: white;
+    position: absolute;
+    width: 1675px;
+    height: 650px;
+    top: 28.5%;
+    left: 20%;
+    opacity: 15%;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.opis{
+    background-color: transparent;
+    position: absolute;
+    width: 1675px;
+    height: 900px;
+    color: #E8E5E5;
+    top: 23%;
+    left: 21%;
+    font-family: Futura Pt ;
+    font-style: italic;
+    font-size: 45px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+.opisgry{
+    background-color: transparent;
+    position: absolute;
+    width: 900px;
+    height:  300px;
+    color: #E8E5E5;
+    top: 330px;
+    left: 17%;
+    font-family: Futura Pt;
+    font-style: italic;
+    font-size: 30px;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+}
+.graramka{
+    background-color: white;
+    position: absolute;
+    width: 1025px;
+    height: 260px;
+    top: 300px;
+    left: 15%;
+    opacity: 15%;
+}
+
+
+.opisgry2{
+    background-color: transparent;
+    position: absolute;
+    width: 900px;
+    height:  300px;
+    color: #E8E5E5;
+    top: 630px;
+    right: 220px;
+    font-family: Futura Pt;
+    font-style: italic;
+    font-size: 30px;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+}
+.graramka2{
+    background-color: white;
+    position: absolute;
+    width: 1025px;
+    height: 140px;
+    top: 600px;
+    right: 160px;
+    opacity: 15%;
+}
+
+
+
+
+.opisgry3{
+    background-color: transparent;
+    position: absolute;
+    width: 900px;
+    height:  300px;
+    color: #E8E5E5;
+    top:800px;
+    left: 17%;
+    font-family: Futura Pt;
+    font-style: italic;
+    font-size: 30px;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+}
+.graramka3{
+    background-color: white;
+    position: absolute;
+    width: 1025px;
+    height: 220px;
+    top: 770px;
+    left: 15%;
+    opacity: 15%;
+}
+
+
+
+.opisgry4{
+    background-color: transparent;
+    position: absolute;
+    width: 900px;
+    height: 200px;
+    color: #E8E5E5;
+    top: 1050px;
+    right: 220px;
+    font-family: Futura Pt;
+    font-style: italic;
+    font-size: 30px;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+}
+.graramka4{
+    background-color: white;
+    position: absolute;
+    width: 1025px;
+    height: 260px;
+    top: 1000px;
+   right: 160px;
+    opacity: 15%;
+}
+
+
+
+
+
+.ramkabandlecity{
+    background-color: white;
+    position: absolute;
+    width: 1025px;
+    height: 260px;
+    top: 20px;
+   left: 160px;
+    opacity: 15%;
+}
+
+
+
+.lore {
+    background-color: transparent;
+    position: absolute;
+    width: 675px;
+    height: 900px;
+    color: #E8E5E5;
+    top: 25%;
+    left: 15.5%;
+    font-family: Futura Pt ;
+    font-style: italic;
+    font-size: 25px;
+    text-align:  justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bandlecity {
+    background-color: transparent;
+    position: absolute;
+    width: 300px;
+    height: 900px;
+    color: #E8E5E5;
+    top: -40px;
+    left: 16%;
+    font-family: Futura Pt;
+    font-style: italic;
+    font-size: 50px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tekstramkalore{
+    background-color: white;
+    position: absolute;
+    width: 765px;
+    height: 770px;
+    top:27%;
+    left: 14%;
+    opacity: 15%;
+
+
+}
+.bilgwater{
+    background-color: transparent;
+    position: absolute;
+    width: 675px;
+    height: 900px;
+    color: #E8E5E5;
+    top: 770px;
+    right: 10%;
+    font-family: Futura Pt ;
+    font-style: italic;
+    font-size: 25px;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.ramkabilg{
+    background-color: white;
+    position: absolute;
+    width: 765px;
+    height: 820px;
+    top:775px;
+    right: 8%;
+    opacity: 15%;
+}
+.bilgwaternapis {
+
+    background-color: transparent;
+    position: absolute;
+    width: 300px;
+    height: 900px;
+    color: #E8E5E5;
+    top: 370px;
+    right: 650px;
+    font-family: Futura Pt;
+    font-style: italic;
+    font-size: 50px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.demacia{
+    background-color: transparent;
+    position: absolute;
+    width: 675px;
+    height: 900px;
+    color: #E8E5E5;
+    top:1420px;
+    left: 15.5%;
+    font-family: Futura Pt ;
+    font-style: italic;
+    font-size: 25px;
+    text-align:  justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.demacianapis{
+    background-color: transparent;
+    position: absolute;
+    width: 300px;
+    height: 900px;
+    color: #E8E5E5;
+    top: 1380px;
+    left: 16%;
+    font-family: Futura Pt;
+    font-style: italic;
+    font-size: 50px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+
+}
+.ramkademacia{
+    background-color: white;
+    position: absolute;
+    width: 765px;
+    height: 950px;
+    top:1355px;
+    left: 14%;
+    opacity: 15%;
+
+}
+.freljord{
+    background-color: transparent;
+    position: absolute;
+    width: 675px;
+    height: 900px;
+    color: #E8E5E5;
+    top:1870px;
+    right: 10%;
+    font-family: Futura Pt ;
+    font-style: italic;
+    font-size: 25px;
+    text-align:  justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.freljordnapis{
+    background-color: transparent;
+    position: absolute;
+    width: 300px;
+    height: 900px;
+    color: #E8E5E5;
+    top: 1880px;
+    right:650px;
+    font-family: Futura Pt;
+    font-style: italic;
+    font-size: 50px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+
+}
+
+.ramkafreljord{
+    background-color: white;
+    position: absolute;
+    width: 765px;
+    height: 840px;
+    top:1855px;
+    right: 8%;
+    opacity: 15%;
+
+}
+.ionia{
+    background-color: transparent;
+    position: absolute;
+    width: 675px;
+    height: 900px;
+    color: #E8E5E5;
+    top:2630px;
+    left: 15.5%;
+    font-family: Futura Pt ;
+    font-style: italic;
+    font-size: 25px;
+    text-align:  justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.ionianapis{
+    background-color: transparent;
+    position: absolute;
+    width: 300px;
+    height: 900px;
+    color: #E8E5E5;
+    top: 2600px;
+    left: 16%;
+    font-family: Futura Pt;
+    font-style: italic;
+    font-size: 50px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+
+.ramkaionia{
+    background-color: white;
+    position: absolute;
+    width: 765px;
+    height: 950px;
+    top: 2555px;
+    left: 14%;
+    opacity: 15%;
+}
+.ixtal{
+    background-color: transparent;
+    position: absolute;
+    width: 675px;
+    height: 900px;
+    color: #E8E5E5;
+    top:2920px;
+    right: 10%;
+    font-family: Futura Pt ;
+    font-style: italic;
+    font-size: 25px;
+    text-align:  justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ixtalnapis{
+    background-color: transparent;
+    position: absolute;
+    width: 300px;
+    height: 900px;
+    color: #E8E5E5;
+    top: 3000px;
+    right: 26%;
+    font-family: Futura Pt;
+    font-style: italic;
+    font-size: 50px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+
+}
+.ramkaixtal{
+    background-color: white;
+    position: absolute;
+    width: 765px;
+    height: 750px;
+    top:2950px;
+    right: 8%;
+    opacity: 15%;
+
+}
+
+.noxus {
+    background-color: transparent;
+    position: absolute;
+    width: 675px;
+    height: 900px;
+    color: #E8E5E5;
+    top:3700px;
+    left: 15.5%;
+    font-family: Futura Pt ;
+    font-style: italic;
+    font-size: 25px;
+    text-align:  justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.noxusnapis{
+    background-color: transparent;
+    position: absolute;
+    width: 300px;
+    height: 900px;
+    color: #E8E5E5;
+    top: 3700px;
+    left: 16%;
+    font-family: Futura Pt;
+    font-style: italic;
+    font-size: 50px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+
+.ramkanoxus {
+    background-color: white;
+    position: absolute;
+    width: 765px;
+    height: 900px;
+    top: 3650px;
+    left: 14%;
+    opacity: 15%;
+}
+
+.piltover{
+    background-color: transparent;
+    position: absolute;
+    width: 675px;
+    height: 900px;
+    color: #E8E5E5;
+    top:4000px;
+    right: 10%;
+    font-family: Futura Pt ;
+    font-style: italic;
+    font-size: 25px;
+    text-align:  justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.piltovernapis{
+    background-color: transparent;
+    position: absolute;
+    width: 300px;
+    height: 900px;
+    color: #E8E5E5;
+    top: 4080px;
+    right: 650px;
+    font-family: Futura Pt;
+    font-style: italic;
+    font-size: 50px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+
+}
+.ramkapiltover {
+    background-color: white;
+    position: absolute;
+    width: 765px;
+    height: 750px;
+    top: 4000px;
+    right: 8%;
+    opacity: 15%;
+}
+.dofilmy{
+    top: 500px;
+    left: 330px;
+    position: absolute;
+}
+.dofilmy2{
+    top: 500px;
+    right: 200px;
+    position: absolute;
+}
+.esport{
+    background-color: white;
+    position: absolute;
+    width: 2000px;
+    height: 900px;
+    top:350px;
+    left: 400px;
+    opacity: 15%;
+
+}
+.ramkaciek{
+    background-color: white;
+    position: absolute;
+    width:2100px;
+    height: 930px;
+    top:300px;
+    left:310px;
+    opacity: 15%;
+
+}
+.zdj{
+    top: 400px;
+    left: 300px;
+    width: 384px;
+    height: 216px;
+    position: absolute;
+}
+.zdj2{
+    top: 400px;
+    left: 880px;
+    width: 384px;
+    height: 216px;
+    position: absolute;
+}
+.zdj3{
+    top: 400px;
+    left:1440px;
+    width: 384px;
+    height: 216px;
+    position: absolute;
+}
+.zdj4{
+    top: 400px;
+    left: 2020px;
+    width: 384px;
+    height: 216px;
+    position: absolute;
+}
+.zdj5{
+    top: 850px;
+    left: 300px;
+    width: 384px;
+    height: 216px;
+    position: absolute;
+}
+.zdj6{
+    top:  850px;
+    left:880px;
+    width: 384px;
+    height: 216px;
+    position: absolute;
+}
+.zdj7{
+    top:  850px;
+    left:1440px;
+    width: 384px;
+    height: 216px;
+    position: absolute;
+}
+.zdj8{
+    top: 850px;
+    left: 2020px;
+    width: 384px;
+    height: 216px;
+    position: absolute;
+}
+.boh{
+    background-color: transparent;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    color: #E8E5E5;
+    top:635px;
+    left: 335px;
+    font-family: Futura Pt;
+    font-style: italic;
+    font-size: 47px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+
+}
+.boh2{
+    background-color: transparent;
+    position: absolute;
+    width: 300px;
+    height:200px;
+    color: #E8E5E5;
+    top: 635px;
+    left: 920px;
+    font-family: Futura Pt;
+    font-style: italic;
+    font-size: 47px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+
+}
+.boh3{
+    background-color: transparent;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    color: #E8E5E5;
+    top: 635px;
+    left: 1480px;
+    font-family: Futura Pt;
+    font-style: italic;
+    font-size: 47px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+
+}
+.boh4{
+    background-color: transparent;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    color: #E8E5E5;
+    top: 635px;
+    left: 2070px;
+    font-family: Futura Pt;
+    font-style: italic;
+    font-size: 47px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+
+}
+.boh5{
+    background-color: transparent;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    color: #E8E5E5;
+    top:1085px;
+    left: 335px;
+    font-family: Futura Pt;
+    font-style: italic;
+    font-size: 47px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+
+}
+.boh6{
+    background-color: transparent;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    color: #E8E5E5;
+    top: 1085px;
+    left: 920px;
+    font-family: Futura Pt;
+    font-style: italic;
+    font-size: 47px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+
+}
+.boh7{
+    background-color: transparent;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    color: #E8E5E5;
+    top:1085px;
+    left: 1480px;
+    font-family: Futura Pt;
+    font-style: italic;
+    font-size: 47px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+
+}
+.boh8{
+    background-color: transparent;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    color: #E8E5E5;
+    top:1085px;
+    left: 2070px;
+    font-family: Futura Pt;
+    font-style: italic;
+    font-size: 47px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+
+}
+.ramkakontakt{
+    background-color: white;
+    position: absolute;
+    width: 750px;
+    height: 820px;
+    top:300px;
+    left: 38%;
+    opacity: 15%;
+
+}
+.wyslij{
+    position: absolute;
+    left: 46.9%;
+    top: 70%;
+    width: 300px;
+    height: 80px;
+    font-size: 40px;
+    font-family: Futura Pt;
+
+}
